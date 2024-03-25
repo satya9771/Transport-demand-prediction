@@ -52,7 +52,13 @@ To improve model performance, k-fold cross validation and hyperparamter tuning i
 Evaluation metrics such as MSE, RMSE, MAE, MAPE, R2 score and Adjusted R2 score is used to compare model performance
 Final model comparision on test data accuracy:
 
-https://private-user-images.githubusercontent.com/83869822/257723169-e544d398-d339-43f5-8e35-628f0c4fe5f5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEzNjcyOTYsIm5iZiI6MTcxMTM2Njk5NiwicGF0aCI6Ii84Mzg2OTgyMi8yNTc3MjMxNjktZTU0NGQzOTgtZDMzOS00M2Y1LThlMzUtNjI4ZjBjNGZlNWY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzI1VDExNDMxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY1YWQ0MDRlODQ3ZDA3ZTJkZGNjMGUwYWNlZThhNzhkMzQyNjZmMTlmMTZmODllOTg5NzRlNWVjOGQxMjIyMGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.kKlcar6vxOblRM3Un65--V0jpj4LJpHiysHtwP_19mM
+Linear regression :- 0.35
+Lasso:- 0.248
+Ridge:- 0.356
+Random Forest Regression:- 0.941
+XG Boost:- 0.894
 
+# Impact Quantification
+This project resulted in hyperparameter tuned Random Forest based predictive model, achieving an R2 score of 94.2% for training data and 94.3% for test data.
 
 
